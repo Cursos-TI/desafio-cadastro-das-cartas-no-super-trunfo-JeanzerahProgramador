@@ -57,7 +57,7 @@ int main (){
 
         //funções carta B
     printf("Digite o estado: \n");                            //char
-    scanf("%c", &estado_B);
+    scanf("%s", &estado_B);
 
     printf("Digite o codigo da carta: \n");                   //char
     scanf("%s", codigo_da_carta_B);
@@ -81,10 +81,10 @@ int main (){
 
     //funções automáticas de densidade e pib
     densidade_populacional_A = populacao_A / area_A;
-    PIB_percapta_A = (PIB_A * 1000000000) /  populacao_A;
+    PIB_percapta_A = (PIB_A * 1000000000.0f) /  populacao_A;
 
     densidade_populacional_B = populacao_B / area_B;
-    PIB_percapta_B = (PIB_B * 1000000000) / populacao_B;
+    PIB_percapta_B = (PIB_B * 1000000000.0f) / populacao_B;
 
 
 
